@@ -30,8 +30,17 @@ This project demonstrates a novel approach for controlling slug flow crystallize
 │   └── sfc_model.py           # Slug Flow Crystallizer model
 ├── mpc/                       # Model Predictive Control implementation
 │   ├── bll/                   # BLL model for MPC
+│   │   ├── data_based_do_mpc_model_bll.py    # BLL model integration in do_mpc
+│   │   ├── mpc_bll_class.py                  # BLL-specific MPC implementation
+│   │   └── save_bll_results.py               # Saving results from BLL MPC
 │   ├── cqr/                   # CQR model for MPC
+│   │   ├── data_based_do_mpc_model_cqr.py    # CQR model integration in do_mpc
+│   │   ├── mpc_cqr_class.py                  # CQR-specific MPC implementation
+│   │   └── save_cqr_results.py               # Saving results from CQR MPC
 │   ├── nn/                    # NN model for MPC
+│   │   ├── data_based_do_mpc_model_nn.py     # NN model integration in do_mpc
+│   │   ├── mpc_nn_class.py                   # NN-specific MPC implementation
+│   │   └── save_nn_results.py                # Saving results from NN MPC
 │   ├── config_mpc.py          # MPC configuration
 │   └── prepare_model.py       # Prepare models for MPC
 ├── training/                  # Model training scripts
