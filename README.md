@@ -83,11 +83,14 @@ Three types of surrogate models are implemented:
 This project requires Python with the following packages:
 - numpy
 - pandas
+- do-mpc
 - torch
+- keras
 - matplotlib
 - jupyter
 - scikit-learn
 - pickle
+- tqdm
 
 
 ## License
