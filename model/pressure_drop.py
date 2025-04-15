@@ -9,9 +9,9 @@ def pressure_drop(L_SFC, Q_PM, Q_TM, Q_g):
     epsilon_0 = Q_g / (Q_PM+Q_g)
     eta_g = 20 * 10 ** (-6)
     theta = 72
-    phi = 0.1  # ???
+    phi = 0.1 
 
-    # Parameter
+    # Parameter (credit: A. C. Kufner, M. Rix, K.Wohlgemuth, Modeling of Continuous Slug Flow Cooling Crystallization towards Pharmaceutical Applications, Processes 11 (2023) 2637.)
     c1 = 1.969
     c2 = -1.102
     c3 = -0.035

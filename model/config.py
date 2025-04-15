@@ -149,7 +149,7 @@ def initialize_init_function(x_points, y_points):
 
 
 def slug_length(Roh_l, v_s, eta_l, d_sfc, sigma_l, epsilon_0):
-    # fitted parameters
+    # fitted parameters (credit: A. C. Kufner, M. Rix, K.Wohlgemuth, Modeling of Continuous Slug Flow Cooling Crystallization towards Pharmaceutical Applications, Processes 11 (2023) 2637.)
     c1 = 1.969
     c2 = -1.102
     c3 = -0.035
