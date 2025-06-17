@@ -5,6 +5,9 @@ This repository contains the implementation of the methods and results presented
 > **Multi-stage model predictive control for slug flow crystallizers using uncertainty-aware surrogate models**  
 > Collin R. Johnson, Stijn de Vries, Kerstin Wohlgemuth and Sergio Lucia
 
+The training data used for the results in the paper can be found here:
+https://osf.io/a37bm/files/osfstorage#
+
 ## Overview
 
 This project demonstrates a novel approach for controlling slug flow crystallizers using multi-stage model predictive control (MPC) with uncertainty-aware surrogate models. The repository includes:
